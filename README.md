@@ -6,7 +6,7 @@ The Order Status History extension for magento 2 is a great solution for store a
 Via Composer
 
 ```bash
-
+composer require sunarctech/magento2-oderstatus
 ```
 ## Key Features
 - Admin can have functionality check the Order status date or time with order details of particular Order on order view page.
