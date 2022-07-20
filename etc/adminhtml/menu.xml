@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Sunarc_OrderStatus extension
+ * NOTICE OF LICENSE
+ * 
+ * This source file is subject to the SunArc Technologies License
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://sunarctechnologies.com/end-user-agreement/
+ * 
+ * @category  Sunarc
+ * @package   Sunarc_OrderStatus
+ * @copyright Copyright (c) 2017
+ * @license
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+   <menu>
+        <add id="Sunarc_OrderStatus::sunarc" title="Sunarc" module="Sunarc_OrderStatus" sortOrder="56" resource="Sunarc_OrderStatus::sunarc"/>
+
+
+        <add id="Sunarc_OrderStatus::sunarc_configuration" title="Configuration" module="Sunarc_OrderStatus" sortOrder="99" action="adminhtml/system_config/edit/section/sunarc" resource="Sunarc_OrderStatus::sunarc_configuration" parent="Sunarc_OrderStatus::sunarc"/>
+    </menu>
+</config>
